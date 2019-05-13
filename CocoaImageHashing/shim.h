@@ -1,1 +1,1 @@
-#import <CocoaImageHashing>
+#import <CocoaImageHashing/CocoaImageHashing.h>
