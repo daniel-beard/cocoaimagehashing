@@ -4,8 +4,7 @@ import PackageDescription
 let package = Package(
   name: "CocoaImageHashing",
   products: [
-    .library(name: "CocoaImageHashingDynamic", type: .dynamic, targets: ["CocoaImageHashing"]),
-    .library(name: "CocoaImageHashingStatic", type: .static, targets: ["CocoaImageHashing"])
+    .library(name: "CocoaImageHashing", type: .static, targets: ["CocoaImageHashing"])
   ],
   targets: [
     .target(
