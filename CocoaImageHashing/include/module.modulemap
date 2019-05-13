@@ -1,5 +1,5 @@
 module CocoaImageHashing [system] {
   header "../shim.h"
-  link "CocoaImageHashing"
+  link "CocoaImageHashingStatic"
   export *
 }
